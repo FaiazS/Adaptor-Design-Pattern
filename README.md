@@ -50,11 +50,17 @@ Open in your favorite IDE (e.g., IntelliJ or Eclipse).
 
 Run the Main class to see how PhonePe interacts with different bank APIs via adapters.
 
+---
+
 📌 Example Output
 
 Result with ICICI: 0.0
+
 Result with Yes Bank: 0.0
+
 (You’ll need to replace the stub methods with actual logic to get real outputs.)
+
+---
 
 ✅ Benefits of This Approach
 
@@ -64,6 +70,7 @@ PhonePe code remains unchanged for any bank integration.
 
 Encourages clean code and loose coupling.
 
+---
 🛠️ To Do
 
 Implement real logic in ICICIBankAPI and YesBankAPI.
@@ -72,10 +79,11 @@ Add unit tests.
 
 Improve logging and error handling.
 
+---
 📚 Learn More
 
-Adapter Pattern - Refactoring Guru
+Adapter Pattern - Refactoring Guru -> https://refactoring.guru/design-patterns/adapter
 
-Design Patterns in Java
+Design Patterns in Java -> https://www.geeksforgeeks.org/design-patterns-set-2-structural-patterns/
 
-
+---
