@@ -35,11 +35,11 @@ BankAPIAdapterDemo/
 
 ## 🚀 How It Works
 
-     - `PhonePe` accepts any class that implements `BankAPIAdaptor`.
+   -PhonePe' accepts any class that implements `BankAPIAdaptor`.
   
-     - Bank-specific adapters implement the common interface and internally delegate to their respective third-party APIs.
+   -Bank-specific adapters implement the common interface and internally delegate to their respective third-party APIs.
   
-     - This allows `PhonePe` to support multiple banks **without knowing their implementation details**.
+   -This allows `PhonePe` to support multiple banks **without knowing their implementation details**.
 
 ## 🔧 How to Run
 
@@ -53,9 +53,9 @@ Run the Main class to see how PhonePe interacts with different bank APIs via ada
 
 📌 Example Output
 
-    -Result with ICICI: 0.0
+  -Result with ICICI: 0.0
 
-    -Result with Yes Bank: 0.0
+  -Result with Yes Bank: 0.0
 
 (You’ll need to replace the stub methods with actual logic to get real outputs.)
 
@@ -63,26 +63,26 @@ Run the Main class to see how PhonePe interacts with different bank APIs via ada
 
 ✅ Benefits of This Approach
 
-    -Easy to add new banks.
+  -Easy to add new banks.
 
-    -PhonePe code remains unchanged for any bank integration.
+  -PhonePe code remains unchanged for any bank integration.
 
-    -Encourages clean code and loose coupling.
+  -Encourages clean code and loose coupling.
 
 ---
 🛠️ To Do
 
-    -Implement real logic in ICICIBankAPI and YesBankAPI.
+  -Implement real logic in ICICIBankAPI and YesBankAPI.
 
-    -Add unit tests.
+  -Add unit tests.
 
-    -Improve logging and error handling.
+  -Improve logging and error handling.
 
 ---
 📚 Learn More
 
-     -Adapter Pattern - Refactoring Guru -> https://refactoring.guru/design-patterns/adapter
+  -Adapter Pattern - Refactoring Guru -> https://refactoring.guru/design-patterns/adapter
 
-     -Design Patterns in Java -> https://www.geeksforgeeks.org/design-patterns-set-2-structural-patterns/
+  -Design Patterns in Java -> https://www.geeksforgeeks.org/design-patterns-set-2-structural-patterns/
 
 ---
